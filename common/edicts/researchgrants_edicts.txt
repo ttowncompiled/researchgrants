@@ -485,3 +485,231 @@ researchgrants_edict_engineering_research_40 = {
         }
 	}
 }
+
+researchgrants_edict_society_research_10 = {
+	length = -1
+	resources = {
+		category = campaigns
+		cost = {
+			influence = 0
+		}
+	}
+
+    prerequisites = {
+        "tech_industrial_farming"
+        "tech_planetary_unification"
+    }
+
+	allow = {
+		NOR = {
+			has_deficit = food
+            has_deficit = consumer_goods
+		}
+	}
+
+	effect = {
+        hidden_effect = {
+            if = {
+                limit = {
+                    has_country_flag = researchgrants_no_event_check_flag
+                }
+                remove_country_flag = researchgrants_no_event_check_flag
+            }
+        }
+		add_modifier = {
+            modifier = researchgrants_society_research_10
+        }
+	}
+
+	ai_weight = {
+		weight = 1
+        modifier = {
+            factor = 10
+            AND = {
+                has_resource = {
+                    type = food
+                    amount >= 800
+                }
+                has_monthly_income = {
+                    resource = food
+                    value >= 20
+                }
+                has_monthly_income = {
+                    resource = society_research
+                    value >= 16
+                }
+            }
+        }
+	}
+}
+
+researchgrants_edict_society_research_20 = {
+	length = -1
+	resources = {
+		category = campaigns
+		cost = {
+			influence = 0
+		}
+	}
+
+    prerequisites = {
+        "tech_eco_simulation"
+        "tech_planetary_unification"
+    }
+
+	allow = {
+		NOR = {
+			has_deficit = food
+            has_deficit = consumer_goods
+		}
+	}
+
+	effect = {
+        hidden_effect = {
+            if = {
+                limit = {
+                    has_country_flag = researchgrants_no_event_check_flag
+                }
+                remove_country_flag = researchgrants_no_event_check_flag
+            }
+        }
+		add_modifier = {
+            modifier = researchgrants_society_research_20
+        }
+	}
+
+	ai_weight = {
+		weight = 1
+        modifier = {
+            factor = 10
+            AND = {
+                has_resource = {
+                    type = food
+                    amount >= 1000
+                }
+                has_monthly_income = {
+                    resource = food
+                    value >= 40
+                }
+                has_monthly_income = {
+                    resource = society_research
+                    value >= 20
+                }
+            }
+        }
+	}
+}
+
+researchgrants_edict_society_research_30 = {
+	length = -1
+	resources = {
+		category = campaigns
+		cost = {
+			influence = 0
+		}
+	}
+
+    prerequisites = {
+        "tech_gene_crops"
+        "tech_planetary_unification"
+    }
+
+	allow = {
+		NOR = {
+			has_deficit = food
+            has_deficit = consumer_goods
+		}
+	}
+
+	effect = {
+        hidden_effect = {
+            if = {
+                limit = {
+                    has_country_flag = researchgrants_no_event_check_flag
+                }
+                remove_country_flag = researchgrants_no_event_check_flag
+            }
+        }
+		add_modifier = {
+            modifier = researchgrants_society_research_30
+        }
+	}
+
+	ai_weight = {
+		weight = 1
+        modifier = {
+            factor = 10
+            AND = {
+                has_resource = {
+                    type = food
+                    amount >= 1200
+                }
+                has_monthly_income = {
+                    resource = food
+                    value >= 60
+                }
+                has_monthly_income = {
+                    resource = society_research
+                    value >= 24
+                }
+            }
+        }
+	}
+}
+
+researchgrants_edict_society_research_40 = {
+	length = -1
+	resources = {
+		category = campaigns
+		cost = {
+			influence = 0
+		}
+	}
+
+    prerequisites = {
+        "tech_nano_vitality_crops"
+        "tech_planetary_unification"
+    }
+
+	allow = {
+		NOR = {
+			has_deficit = food
+            has_deficit = consumer_goods
+		}
+	}
+
+	effect = {
+        hidden_effect = {
+            if = {
+                limit = {
+                    has_country_flag = researchgrants_no_event_check_flag
+                }
+                remove_country_flag = researchgrants_no_event_check_flag
+            }
+        }
+		add_modifier = {
+            modifier = researchgrants_society_research_40
+        }
+	}
+
+	ai_weight = {
+		weight = 1
+        modifier = {
+            factor = 10
+            AND = {
+                has_resource = {
+                    type = food
+                    amount >= 2000
+                }
+                has_monthly_income = {
+                    resource = food
+                    value >= 80
+                }
+                has_monthly_income = {
+                    resource = society_research
+                    value >= 32
+                }
+            }
+        }
+	}
+}

@@ -45,3 +45,27 @@ researchgrants_engineering_research_40 = {
     country_base_minerals_produces_add = -40
     country_base_rare_crystals_produces_add = -4
 }
+
+researchgrants_society_research_10 = {
+	country_society_tech_research_speed = 0.10
+    country_base_food_produces_add = -10
+    country_base_consumer_goods_produces_add = -1
+}
+
+researchgrants_society_research_20 = {
+	country_society_tech_research_speed = 0.20
+    country_base_food_produces_add = -20
+    country_base_consumer_goods_produces_add = -2
+}
+
+researchgrants_society_research_30 = {
+	country_society_tech_research_speed = 0.30
+    country_base_food_produces_add = -30
+    country_base_consumer_goods_produces_add = -3
+}
+
+researchgrants_society_research_40 = {
+	country_society_tech_research_speed = 0.40
+    country_base_food_produces_add = -40
+    country_base_consumer_goods_produces_add = -4
+}
