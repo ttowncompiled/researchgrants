@@ -21,3 +21,27 @@ researchgrants_physics_research_40 = {
     country_base_energy_produces_add = -40
     country_base_volatile_motes_produces_add = -4
 }
+
+researchgrants_engineering_research_10 = {
+	country_engineering_tech_research_speed = 0.10
+    country_base_minerals_produces_add = -10
+    country_base_rare_crystals_produces_add = -1
+}
+
+researchgrants_engineering_research_20 = {
+	country_engineering_tech_research_speed = 0.20
+    country_base_minerals_produces_add = -20
+    country_base_rare_crystals_produces_add = -2
+}
+
+researchgrants_engineering_research_30 = {
+	country_engineering_tech_research_speed = 0.30
+    country_base_minerals_produces_add = -30
+    country_base_rare_crystals_produces_add = -3
+}
+
+researchgrants_engineering_research_40 = {
+	country_engineering_tech_research_speed = 0.40
+    country_base_minerals_produces_add = -40
+    country_base_rare_crystals_produces_add = -4
+}
