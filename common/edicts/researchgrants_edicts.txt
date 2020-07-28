@@ -54,6 +54,10 @@ researchgrants_edict_physics_research_10 = {
                     resource = physics_research
                     value >= 16
                 }
+                has_monthly_income = {
+                    resource = volatile_motes
+                    value >= 2
+                }
             }
         }
 	}
@@ -114,6 +118,10 @@ researchgrants_edict_physics_research_20 = {
                 has_monthly_income = {
                     resource = physics_research
                     value >= 20
+                }
+                has_monthly_income = {
+                    resource = volatile_motes
+                    value >= 4
                 }
             }
         }
@@ -176,6 +184,10 @@ researchgrants_edict_physics_research_30 = {
                     resource = physics_research
                     value >= 24
                 }
+                has_monthly_income = {
+                    resource = volatile_motes
+                    value >= 6
+                }
             }
         }
 	}
@@ -236,6 +248,10 @@ researchgrants_edict_physics_research_40 = {
                 has_monthly_income = {
                     resource = physics_research
                     value >= 32
+                }
+                has_monthly_income = {
+                    resource = volatile_motes
+                    value >= 8
                 }
             }
         }
@@ -298,6 +314,10 @@ researchgrants_edict_engineering_research_10 = {
                     resource = engineering_research
                     value >= 16
                 }
+                has_monthly_income = {
+                    resource = rare_crystals
+                    value >= 2
+                }
             }
         }
 	}
@@ -358,6 +378,10 @@ researchgrants_edict_engineering_research_20 = {
                 has_monthly_income = {
                     resource = engineering_research
                     value >= 20
+                }
+                has_monthly_income = {
+                    resource = rare_crystals
+                    value >= 4
                 }
             }
         }
@@ -420,6 +444,10 @@ researchgrants_edict_engineering_research_30 = {
                     resource = engineering_research
                     value >= 24
                 }
+                has_monthly_income = {
+                    resource = rare_crystals
+                    value >= 6
+                }
             }
         }
 	}
@@ -481,6 +509,10 @@ researchgrants_edict_engineering_research_40 = {
                     resource = engineering_research
                     value >= 32
                 }
+                has_monthly_income = {
+                    resource = rare_crystals
+                    value >= 8
+                }
             }
         }
 	}
@@ -537,6 +569,10 @@ researchgrants_edict_society_research_10 = {
                 has_monthly_income = {
                     resource = society_research
                     value >= 16
+                }
+                has_monthly_income = {
+                    resource = consumer_goods
+                    value >= 2
                 }
             }
         }
@@ -595,6 +631,10 @@ researchgrants_edict_society_research_20 = {
                     resource = society_research
                     value >= 20
                 }
+                has_monthly_income = {
+                    resource = consumer_goods
+                    value >= 4
+                }
             }
         }
 	}
@@ -652,6 +692,10 @@ researchgrants_edict_society_research_30 = {
                     resource = society_research
                     value >= 24
                 }
+                has_monthly_income = {
+                    resource = consumer_goods
+                    value >= 6
+                }
             }
         }
 	}
@@ -708,6 +752,10 @@ researchgrants_edict_society_research_40 = {
                 has_monthly_income = {
                     resource = society_research
                     value >= 32
+                }
+                has_monthly_income = {
+                    resource = consumer_goods
+                    value >= 8
                 }
             }
         }
