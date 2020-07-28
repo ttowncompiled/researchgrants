@@ -16,6 +16,7 @@ researchgrants_edict_physics_research_10 = {
 		NOR = {
 			has_deficit = energy
             has_deficit = volatile_motes
+            has_edict = researchgrants_edict_all_research_10
 		}
         has_resource = {
             type = volatile_motes
@@ -30,6 +31,12 @@ researchgrants_edict_physics_research_10 = {
                     has_country_flag = researchgrants_no_event_check_flag
                 }
                 remove_country_flag = researchgrants_no_event_check_flag
+            }
+            if = {
+                limit = {
+                    has_modifier = researchgrants_physics_research_10
+                }
+                remove_modifier = researchgrants_physics_research_10
             }
         }
 		add_modifier = {
@@ -81,6 +88,7 @@ researchgrants_edict_physics_research_20 = {
 		NOR = {
 			has_deficit = energy
             has_deficit = volatile_motes
+            has_edict = researchgrants_edict_all_research_20
 		}
         has_resource = {
             type = volatile_motes
@@ -95,6 +103,12 @@ researchgrants_edict_physics_research_20 = {
                     has_country_flag = researchgrants_no_event_check_flag
                 }
                 remove_country_flag = researchgrants_no_event_check_flag
+            }
+            if = {
+                limit = {
+                    has_modifier = researchgrants_physics_research_20
+                }
+                remove_modifier = researchgrants_physics_research_20
             }
         }
 		add_modifier = {
@@ -146,6 +160,7 @@ researchgrants_edict_physics_research_30 = {
 		NOR = {
 			has_deficit = energy
             has_deficit = volatile_motes
+            has_edict = researchgrants_edict_all_research_30
 		}
         has_resource = {
             type = volatile_motes
@@ -160,6 +175,12 @@ researchgrants_edict_physics_research_30 = {
                     has_country_flag = researchgrants_no_event_check_flag
                 }
                 remove_country_flag = researchgrants_no_event_check_flag
+            }
+            if = {
+                limit = {
+                    has_modifier = researchgrants_physics_research_30
+                }
+                remove_modifier = researchgrants_physics_research_30
             }
         }
 		add_modifier = {
@@ -211,6 +232,7 @@ researchgrants_edict_physics_research_40 = {
 		NOR = {
 			has_deficit = energy
             has_deficit = volatile_motes
+            has_edict = researchgrants_edict_all_research_40
 		}
         has_resource = {
             type = volatile_motes
@@ -225,6 +247,12 @@ researchgrants_edict_physics_research_40 = {
                     has_country_flag = researchgrants_no_event_check_flag
                 }
                 remove_country_flag = researchgrants_no_event_check_flag
+            }
+            if = {
+                limit = {
+                    has_modifier = researchgrants_physics_research_40
+                }
+                remove_modifier = researchgrants_physics_research_40
             }
         }
 		add_modifier = {
@@ -276,6 +304,7 @@ researchgrants_edict_engineering_research_10 = {
 		NOR = {
 			has_deficit = minerals
             has_deficit = rare_crystals
+            has_edict = researchgrants_edict_all_research_10
 		}
         has_resource = {
             type = rare_crystals
@@ -290,6 +319,12 @@ researchgrants_edict_engineering_research_10 = {
                     has_country_flag = researchgrants_no_event_check_flag
                 }
                 remove_country_flag = researchgrants_no_event_check_flag
+            }
+            if = {
+                limit = {
+                    has_modifier = researchgrants_engineering_research_10
+                }
+                remove_modifier = researchgrants_engineering_research_10
             }
         }
 		add_modifier = {
@@ -341,6 +376,7 @@ researchgrants_edict_engineering_research_20 = {
 		NOR = {
 			has_deficit = minerals
             has_deficit = rare_crystals
+            has_edict = researchgrants_edict_all_research_20
 		}
         has_resource = {
             type = rare_crystals
@@ -355,6 +391,12 @@ researchgrants_edict_engineering_research_20 = {
                     has_country_flag = researchgrants_no_event_check_flag
                 }
                 remove_country_flag = researchgrants_no_event_check_flag
+            }
+            if = {
+                limit = {
+                    has_modifier = researchgrants_engineering_research_20
+                }
+                remove_modifier = researchgrants_engineering_research_20
             }
         }
 		add_modifier = {
@@ -406,6 +448,7 @@ researchgrants_edict_engineering_research_30 = {
 		NOR = {
 			has_deficit = minerals
             has_deficit = rare_crystals
+            has_edict = researchgrants_edict_all_research_30
 		}
         has_resource = {
             type = rare_crystals
@@ -420,6 +463,12 @@ researchgrants_edict_engineering_research_30 = {
                     has_country_flag = researchgrants_no_event_check_flag
                 }
                 remove_country_flag = researchgrants_no_event_check_flag
+            }
+            if = {
+                limit = {
+                    has_modifier = researchgrants_engineering_research_30
+                }
+                remove_modifier = researchgrants_engineering_research_30
             }
         }
 		add_modifier = {
@@ -471,6 +520,7 @@ researchgrants_edict_engineering_research_40 = {
 		NOR = {
 			has_deficit = minerals
             has_deficit = rare_crystals
+            has_edict = researchgrants_edict_all_research_40
 		}
         has_resource = {
             type = rare_crystals
@@ -485,6 +535,12 @@ researchgrants_edict_engineering_research_40 = {
                     has_country_flag = researchgrants_no_event_check_flag
                 }
                 remove_country_flag = researchgrants_no_event_check_flag
+            }
+            if = {
+                limit = {
+                    has_modifier = researchgrants_engineering_research_40
+                }
+                remove_modifier = researchgrants_engineering_research_40
             }
         }
 		add_modifier = {
@@ -536,6 +592,7 @@ researchgrants_edict_society_research_10 = {
 		NOR = {
 			has_deficit = food
             has_deficit = consumer_goods
+            has_edict = researchgrants_edict_all_research_10
 		}
 	}
 
@@ -546,6 +603,12 @@ researchgrants_edict_society_research_10 = {
                     has_country_flag = researchgrants_no_event_check_flag
                 }
                 remove_country_flag = researchgrants_no_event_check_flag
+            }
+            if = {
+                limit = {
+                    has_modifier = researchgrants_society_research_10
+                }
+                remove_modifier = researchgrants_society_research_10
             }
         }
 		add_modifier = {
@@ -597,6 +660,7 @@ researchgrants_edict_society_research_20 = {
 		NOR = {
 			has_deficit = food
             has_deficit = consumer_goods
+            has_edict = researchgrants_edict_all_research_20
 		}
 	}
 
@@ -607,6 +671,12 @@ researchgrants_edict_society_research_20 = {
                     has_country_flag = researchgrants_no_event_check_flag
                 }
                 remove_country_flag = researchgrants_no_event_check_flag
+            }
+            if = {
+                limit = {
+                    has_modifier = researchgrants_society_research_20
+                }
+                remove_modifier = researchgrants_society_research_20
             }
         }
 		add_modifier = {
@@ -658,6 +728,7 @@ researchgrants_edict_society_research_30 = {
 		NOR = {
 			has_deficit = food
             has_deficit = consumer_goods
+            has_edict = researchgrants_edict_all_research_30
 		}
 	}
 
@@ -668,6 +739,12 @@ researchgrants_edict_society_research_30 = {
                     has_country_flag = researchgrants_no_event_check_flag
                 }
                 remove_country_flag = researchgrants_no_event_check_flag
+            }
+            if = {
+                limit = {
+                    has_modifier = researchgrants_society_research_30
+                }
+                remove_modifier = researchgrants_society_research_30
             }
         }
 		add_modifier = {
@@ -719,6 +796,7 @@ researchgrants_edict_society_research_40 = {
 		NOR = {
 			has_deficit = food
             has_deficit = consumer_goods
+            has_edict = researchgrants_edict_all_research_40
 		}
 	}
 
@@ -729,6 +807,12 @@ researchgrants_edict_society_research_40 = {
                     has_country_flag = researchgrants_no_event_check_flag
                 }
                 remove_country_flag = researchgrants_no_event_check_flag
+            }
+            if = {
+                limit = {
+                    has_modifier = researchgrants_society_research_40
+                }
+                remove_modifier = researchgrants_society_research_40
             }
         }
 		add_modifier = {
@@ -759,5 +843,321 @@ researchgrants_edict_society_research_40 = {
                 }
             }
         }
+	}
+}
+
+researchgrants_edict_all_research_10 = {
+	length = -1
+	resources = {
+		category = campaigns
+		cost = {
+			influence = 0
+		}
+	}
+
+    prerequisites = {
+        "tech_power_plant_1"
+        "tech_basic_industry"
+        "tech_industrial_farming"
+        "tech_planetary_unification"
+    }
+
+	allow = {
+		NOR = {
+			has_deficit = energy
+            has_deficit = volatile_motes
+            has_deficit = rare_crystals
+            has_deficit = consumer_goods
+            has_edict = researchgrants_edict_physics_research_10
+            has_edict = researchgrants_edict_engineering_research_10
+            has_edict = researchgrants_edict_society_research_10
+		}
+        has_resource = {
+            type = volatile_motes
+            amount > 0
+        }
+        has_resource = {
+            type = rare_crystals
+            amount > 0
+        }
+	}
+
+	effect = {
+        hidden_effect = {
+            if = {
+                limit = {
+                    has_country_flag = researchgrants_no_event_check_flag
+                }
+                remove_country_flag = researchgrants_no_event_check_flag
+            }
+            if = {
+                limit = {
+                    has_modifier = researchgrants_physics_research_10
+                }
+                remove_modifier = researchgrants_physics_research_10
+            }
+            if = {
+                limit = {
+                    has_modifier = researchgrants_engineering_research_10
+                }
+                remove_modifier = researchgrants_engineering_research_10
+            }
+            if = {
+                limit = {
+                    has_modifier = researchgrants_society_research_10
+                }
+                remove_modifier = researchgrants_society_research_10
+            }
+        }
+		add_modifier = {
+            modifier = researchgrants_physics_research_10
+        }
+        add_modifier = {
+            modifier = researchgrants_engineering_research_10
+        }
+        add_modifier = {
+            modifier = researchgrants_society_research_10
+        }
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+researchgrants_edict_all_research_20 = {
+	length = -1
+	resources = {
+		category = campaigns
+		cost = {
+			influence = 0
+		}
+	}
+
+    prerequisites = {
+        "tech_power_plant_2"
+        "tech_mining_1"
+        "tech_eco_simulation"
+        "tech_planetary_unification"
+    }
+
+	allow = {
+		NOR = {
+			has_deficit = energy
+            has_deficit = volatile_motes
+            has_deficit = rare_crystals
+            has_deficit = consumer_goods
+            has_edict = researchgrants_edict_physics_research_20
+            has_edict = researchgrants_edict_engineering_research_20
+            has_edict = researchgrants_edict_society_research_20
+		}
+        has_resource = {
+            type = volatile_motes
+            amount > 0
+        }
+        has_resource = {
+            type = rare_crystals
+            amount > 0
+        }
+	}
+
+	effect = {
+        hidden_effect = {
+            if = {
+                limit = {
+                    has_country_flag = researchgrants_no_event_check_flag
+                }
+                remove_country_flag = researchgrants_no_event_check_flag
+            }
+            if = {
+                limit = {
+                    has_modifier = researchgrants_physics_research_20
+                }
+                remove_modifier = researchgrants_physics_research_20
+            }
+            if = {
+                limit = {
+                    has_modifier = researchgrants_engineering_research_20
+                }
+                remove_modifier = researchgrants_engineering_research_20
+            }
+            if = {
+                limit = {
+                    has_modifier = researchgrants_society_research_20
+                }
+                remove_modifier = researchgrants_society_research_20
+            }
+        }
+		add_modifier = {
+            modifier = researchgrants_physics_research_20
+        }
+        add_modifier = {
+            modifier = researchgrants_engineering_research_20
+        }
+        add_modifier = {
+            modifier = researchgrants_society_research_20
+        }
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+researchgrants_edict_all_research_30 = {
+	length = -1
+	resources = {
+		category = campaigns
+		cost = {
+			influence = 0
+		}
+	}
+
+    prerequisites = {
+        "tech_power_plant_3"
+        "tech_mining_2"
+        "tech_gene_crops"
+        "tech_planetary_unification"
+    }
+
+	allow = {
+		NOR = {
+			has_deficit = energy
+            has_deficit = volatile_motes
+            has_deficit = rare_crystals
+            has_deficit = consumer_goods
+            has_edict = researchgrants_edict_physics_research_30
+            has_edict = researchgrants_edict_engineering_research_30
+            has_edict = researchgrants_edict_society_research_30
+		}
+        has_resource = {
+            type = volatile_motes
+            amount > 0
+        }
+        has_resource = {
+            type = rare_crystals
+            amount > 0
+        }
+	}
+
+	effect = {
+        hidden_effect = {
+            if = {
+                limit = {
+                    has_country_flag = researchgrants_no_event_check_flag
+                }
+                remove_country_flag = researchgrants_no_event_check_flag
+            }
+            if = {
+                limit = {
+                    has_modifier = researchgrants_physics_research_30
+                }
+                remove_modifier = researchgrants_physics_research_30
+            }
+            if = {
+                limit = {
+                    has_modifier = researchgrants_engineering_research_30
+                }
+                remove_modifier = researchgrants_engineering_research_30
+            }
+            if = {
+                limit = {
+                    has_modifier = researchgrants_society_research_30
+                }
+                remove_modifier = researchgrants_society_research_30
+            }
+        }
+		add_modifier = {
+            modifier = researchgrants_physics_research_30
+        }
+        add_modifier = {
+            modifier = researchgrants_engineering_research_30
+        }
+        add_modifier = {
+            modifier = researchgrants_society_research_30
+        }
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+researchgrants_edict_all_research_40 = {
+	length = -1
+	resources = {
+		category = campaigns
+		cost = {
+			influence = 0
+		}
+	}
+
+    prerequisites = {
+        "tech_power_plant_4"
+        "tech_mining_3"
+        "tech_nano_vitality_crops"
+        "tech_planetary_unification"
+    }
+
+	allow = {
+		NOR = {
+			has_deficit = energy
+            has_deficit = volatile_motes
+            has_deficit = rare_crystals
+            has_deficit = consumer_goods
+            has_edict = researchgrants_edict_physics_research_40
+            has_edict = researchgrants_edict_engineering_research_40
+            has_edict = researchgrants_edict_society_research_40
+		}
+        has_resource = {
+            type = volatile_motes
+            amount > 0
+        }
+        has_resource = {
+            type = rare_crystals
+            amount > 0
+        }
+	}
+
+	effect = {
+        hidden_effect = {
+            if = {
+                limit = {
+                    has_country_flag = researchgrants_no_event_check_flag
+                }
+                remove_country_flag = researchgrants_no_event_check_flag
+            }
+            if = {
+                limit = {
+                    has_modifier = researchgrants_physics_research_40
+                }
+                remove_modifier = researchgrants_physics_research_40
+            }
+            if = {
+                limit = {
+                    has_modifier = researchgrants_engineering_research_40
+                }
+                remove_modifier = researchgrants_engineering_research_40
+            }
+            if = {
+                limit = {
+                    has_modifier = researchgrants_society_research_40
+                }
+                remove_modifier = researchgrants_society_research_40
+            }
+        }
+		add_modifier = {
+            modifier = researchgrants_physics_research_40
+        }
+        add_modifier = {
+            modifier = researchgrants_engineering_research_40
+        }
+        add_modifier = {
+            modifier = researchgrants_society_research_40
+        }
+	}
+
+	ai_weight = {
+		weight = 0
 	}
 }
