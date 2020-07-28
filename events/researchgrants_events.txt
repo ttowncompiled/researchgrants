@@ -1,0 +1,46 @@
+namespace = researchgrants_event
+
+country_event = {
+	id = researchgrants_event.1
+	hide_window = yes
+
+	trigger = {
+		owner = {
+			NOR = {
+				has_country_flag = researchgrants_no_event_check_flag
+				has_edict = researchgrants_edict_physics_research_10
+				has_edict = researchgrants_edict_physics_research_20
+				has_edict = researchgrants_edict_physics_research_30
+				has_edict = researchgrants_edict_physics_research_40
+			}
+		}
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				has_modifier = researchgrants_physics_research_10
+			}
+			remove_modifier = researchgrants_physics_research_10
+		}
+		if = {
+			limit = {
+				has_modifier = researchgrants_physics_research_20
+			}
+			remove_modifier = researchgrants_physics_research_20
+		}
+		if = {
+			limit = {
+				has_modifier = researchgrants_physics_research_30
+			}
+			remove_modifier = researchgrants_physics_research_30
+		}
+		if = {
+			limit = {
+				has_modifier = researchgrants_physics_research_40
+			}
+			remove_modifier = researchgrants_physics_research_40
+		}
+		set_country_flag = researchgrants_no_event_check_flag
+	}
+}
